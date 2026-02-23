@@ -58,7 +58,7 @@ export function Profile() {
                 <Label htmlFor="name">Full Name</Label>
                 <div className="relative mt-1">
                   <User className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                  <Input id="name" defaultValue="John Doe" className="pl-10" />
+                  <Input id="name" defaultValue="Ajisharmila" className="pl-10" />
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ export function Profile() {
                 <Label htmlFor="email">Email</Label>
                 <div className="relative mt-1">
                   <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
-                  <Input id="email" type="email" defaultValue="john.doe@example.com" className="pl-10" />
+                  <Input id="email" type="email" defaultValue="ajisharmila1101@gmail.com" className="pl-10" />
                 </div>
               </div>
 
