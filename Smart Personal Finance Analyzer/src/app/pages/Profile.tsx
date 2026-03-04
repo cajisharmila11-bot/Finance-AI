@@ -71,7 +71,7 @@ export function Profile() {
               </div>
 
               <div>
-                <Label htmlFor="budget">Monthly Budget ($)</Label>
+                <Label htmlFor="budget">Monthly Budget (₹)</Label>
                 <Input id="budget" type="number" defaultValue="3000" className="mt-1" />
               </div>
 
@@ -144,7 +144,7 @@ export function Profile() {
                 <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-indigo-500 to-violet-600 rounded-full" style={{ width: '65%' }} />
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">$3,250 of $5,000</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">₹3,250 of ₹5,000</p>
               </div>
 
               <div className="p-4 bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-teal-950 dark:to-cyan-950 rounded-lg">
@@ -155,7 +155,7 @@ export function Profile() {
                 <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full" style={{ width: '42%' }} />
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">$630 of $1,500</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">₹630 of ₹1,500</p>
               </div>
             </div>
           </CardContent>
