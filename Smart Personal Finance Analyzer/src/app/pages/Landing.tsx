@@ -170,7 +170,7 @@ export function Landing() {
               >
                 <Link to={feature.link}>
                   <Card className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-indigo-200 dark:hover:border-indigo-800 cursor-pointer group h-full">
-                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
+                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ₹{feature.gradient} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}>
                       <feature.icon className="w-7 h-7 text-white" />
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
@@ -214,7 +214,7 @@ export function Landing() {
                 transition={{ delay: index * 0.1 }}
                 className="relative"
               >
-                <Link to={`/how-it-works/step-${index + 1}`}>
+                <Link to={`/how-it-works/step-₹{index + 1}`}>
                   <Card className="p-8 text-center hover:shadow-xl transition-all cursor-pointer group border-2 hover:border-indigo-200 dark:hover:border-indigo-800">
                     <div className="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-violet-600 text-white flex items-center justify-center text-2xl font-bold mb-4 mx-auto group-hover:scale-110 transition-transform">
                       {index + 1}
@@ -272,7 +272,7 @@ export function Landing() {
           <div className="space-y-4">
             <div className="flex items-center justify-center p-8 bg-gradient-to-br from-indigo-50 to-violet-50 dark:from-indigo-950 dark:to-violet-950 rounded-2xl">
               <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white text-5xl font-bold shadow-xl">
-                $
+                ₹
               </div>
             </div>
             <div className="space-y-2">
