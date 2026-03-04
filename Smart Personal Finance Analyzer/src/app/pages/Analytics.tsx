@@ -42,7 +42,7 @@ export function Analytics() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pt-20 pb-24 md:pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Link
-          to="/dashboard"
+          to="/dashboard."
           className="inline-flex items-center text-sm text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 mb-6"
         >
           <ArrowLeft className="w-4 h-4 mr-2" />
@@ -62,7 +62,7 @@ export function Analytics() {
                 <span className="text-sm text-gray-600 dark:text-gray-400">Avg. Daily</span>
                 <TrendingUp className="w-4 h-4 text-green-500" />
               </div>
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">$81.89</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">₹81.89</p>
             </CardContent>
           </Card>
 
@@ -72,7 +72,7 @@ export function Analytics() {
                 <span className="text-sm text-gray-600 dark:text-gray-400">Top Category</span>
                 <span className="text-xs bg-indigo-100 dark:bg-indigo-900 text-indigo-600 dark:text-indigo-300 px-2 py-1 rounded">Food</span>
               </div>
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">$856</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">₹856</p>
             </CardContent>
           </Card>
 
@@ -92,7 +92,7 @@ export function Analytics() {
                 <span className="text-sm text-gray-600 dark:text-gray-400">Prediction</span>
                 <Brain className="w-4 h-4 text-violet-500" />
               </div>
-              <p className="text-2xl font-bold text-gray-900 dark:text-white">$2,580</p>
+              <p className="text-2xl font-bold text-gray-900 dark:text-white">₹2,580</p>
             </CardContent>
           </Card>
         </div>
@@ -195,7 +195,7 @@ export function Analytics() {
                             className="h-full rounded-full"
                             style={{
                               backgroundColor: category.color,
-                              width: `${(category.value / categoryData.reduce((sum, cat) => sum + cat.value, 0)) * 100}%`
+                              width: `₹{(category.value / categoryData.reduce((sum, cat) => sum + cat.value, 0)) * 100}%`
                             }}
                           />
                         </div>
@@ -248,7 +248,7 @@ export function Analytics() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 backdrop-blur-lg rounded-lg p-4">
                     <p className="text-sm text-indigo-100">Next Month</p>
-                    <p className="text-2xl font-bold">$2,580</p>
+                    <p className="text-2xl font-bold">₹2,580</p>
                   </div>
                   <div className="bg-white/10 backdrop-blur-lg rounded-lg p-4">
                     <p className="text-sm text-indigo-100">Accuracy</p>
