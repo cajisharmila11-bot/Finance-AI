@@ -127,7 +127,7 @@ export function FeatureDetail() {
 
         {/* Hero */}
         <div className="text-center mb-16">
-          <div className={`w-20 h-20 mx-auto mb-6 rounded-3xl bg-gradient-to-br ${currentFeature.gradient} flex items-center justify-center`}>
+          <div className={`w-20 h-20 mx-auto mb-6 rounded-3xl bg-gradient-to-br ₹{currentFeature.gradient} flex items-center justify-center`}>
             <Icon className="w-10 h-10 text-white" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
@@ -144,7 +144,7 @@ export function FeatureDetail() {
           <div className="grid md:grid-cols-2 gap-4">
             {currentFeature.benefits.map((benefit, index) => (
               <div key={index} className="flex items-start space-x-3">
-                <div className={`w-6 h-6 rounded-full bg-gradient-to-br ${currentFeature.gradient} flex items-center justify-center flex-shrink-0 mt-0.5`}>
+                <div className={`w-6 h-6 rounded-full bg-gradient-to-br ₹{currentFeature.gradient} flex items-center justify-center flex-shrink-0 mt-0.5`}>
                   <Check className="w-4 h-4 text-white" />
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">{benefit}</p>
@@ -159,7 +159,7 @@ export function FeatureDetail() {
           <div className="space-y-4">
             {currentFeature.howItWorks.map((step, index) => (
               <div key={index} className="flex items-start space-x-4">
-                <div className={`w-10 h-10 rounded-full bg-gradient-to-br ${currentFeature.gradient} text-white flex items-center justify-center font-bold flex-shrink-0`}>
+                <div className={`w-10 h-10 rounded-full bg-gradient-to-br ₹{currentFeature.gradient} text-white flex items-center justify-center font-bold flex-shrink-0`}>
                   {index + 1}
                 </div>
                 <p className="text-gray-700 dark:text-gray-300 pt-2">{step}</p>
@@ -171,7 +171,7 @@ export function FeatureDetail() {
         {/* CTA */}
         <div className="text-center">
           <Link to="/signup">
-            <Button size="lg" className={`bg-gradient-to-r ${currentFeature.gradient} hover:opacity-90 text-white px-8 py-6 text-lg rounded-2xl`}>
+            <Button size="lg" className={`bg-gradient-to-r ₹{currentFeature.gradient} hover:opacity-90 text-white px-8 py-6 text-lg rounded-2xl`}>
               Get Started Now
             </Button>
           </Link>
