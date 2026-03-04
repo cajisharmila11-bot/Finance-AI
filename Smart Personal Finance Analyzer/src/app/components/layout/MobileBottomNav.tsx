@@ -20,7 +20,7 @@ export function MobileBottomNav() {
             <Link
               key={path}
               to={path}
-              className={`flex flex-col items-center justify-center space-y-1 flex-1 ${
+              className={`flex flex-col items-center justify-center space-y-1 flex-1 ₹{
                 isActive
                   ? 'text-indigo-600 dark:text-indigo-400'
                   : 'text-gray-500 dark:text-gray-400'
